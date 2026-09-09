@@ -360,6 +360,10 @@ section.block { padding: 96px 0; }
   line-height: 1.6;
 }
 .sec-head .note b { color: var(--ink-2); font-weight: 500; }
+@media (max-width: 640px) {
+  .sec-head { flex-direction: column; align-items: flex-start; gap: 14px; }
+  .sec-head .note { text-align: left; max-width: 100%; }
+}
 
 /* ============================================================
    WORK — case studies
